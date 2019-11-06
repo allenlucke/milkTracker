@@ -53,10 +53,10 @@ function displayFeedings(){
   el.empty();
   // loop through garage
   for( each of feedings ){
-    // for each car, create an li
+    // for each feeding, create an li
     el.append( `<li>Time: ` + each.time + ` Amount: ` + each.amount + ` oz.</li>` );
   } // end for loop
-} // end displayCars
+} // end displayfeedings 
 
 function readyNow(){
   // target milkToDrinkDaily by id
