@@ -1,6 +1,6 @@
 $( document ).ready( readyNow );
 
-const milkQuota = 30;
+const milkQuota = 22;
 let feedings= [];
 
 //new Feeding
@@ -56,7 +56,7 @@ function displayFeedings(){
     // for each feeding, create an li
     el.append( `<li>Time: ` + each.time + ` Amount: ` + each.amount + ` oz.</li>` );
   } // end for loop
-} // end displayfeedings 
+} // end displayfeedings
 
 function readyNow(){
   // target milkToDrinkDaily by id
