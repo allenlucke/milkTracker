@@ -1,0 +1,16 @@
+body{
+  background-image: url(https://hips.hearstapps.com/bpc.h-cdn.co/assets/16/44/1024x512/landscape-1478105388-glass-baby-bottles.jpg?resize=480:*);
+  text-align: center;
+  font-family: fantasy;
+}
+.juliapic{
+  height: 700px;
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  text-align: center;
+  list-style: inside;
+}
